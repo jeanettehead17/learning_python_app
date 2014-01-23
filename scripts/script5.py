@@ -16,5 +16,10 @@ elif z < y or z < x:
 
 print numbers
 
-print numbers[2] # Print the third list item
-print numbers[-1] # Print the last list item
+# Making a dictionary of the number of letters in each word
+structures = {'lists': 5, 'dictionaries': 12}
+print structures.keys()
+
+structures['items'] = 5
+print structures
+
