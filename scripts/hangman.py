@@ -20,29 +20,29 @@ while keep_going != "no":
     guesses = ""
 
     while turns > 0:         
-        failed = 0
+        not_guessed = 0
 
         for char in word:      
             if char in guesses:    
                 print char,    
             else:
                 print "_",     
-                failed += 1   
+                not_guessed = not_guessed + 1   
 
-        if failed == 0:        
+        if not_guessed == 0:        
             print "You won! Good job!!"
             keep_going = raw_input("Would you like to play again? ")
             break         
  
         guess = raw_input("Guess a character: ") 
-        guesses += guess    
+        guesses = guesses + guess    
 
         if guess not in word:  
-            turns -= 1       
+            turns = turns - 1       
             print "Wrong."   
             print "You have", turns, "more guesses."
 
             if turns == 0:           
-                print "You Lose. The word was", word
+                print "You lose. The word was", word
                 keep_going = raw_input("Would you like to play again? ") 
-                break
+                
