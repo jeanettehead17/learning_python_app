@@ -7,8 +7,8 @@ numbers = [x, y, z]
 
 # Checking if y is both greater than x and less than z
 if x < y and y < z:
-	print 'y is in the middle'
-	numbers.append(20) # If this is true, append 20 to our numbers list
+    print 'y is in the middle'
+    numbers.append(20) # If this is true, append 20 to our numbers list
 
 # Checking if z is less than y or less than x
 elif z < y or z < x:
