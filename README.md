@@ -4,4 +4,4 @@ You can follow along with part 1 here: http://nbviewer.ipython.org/gist/sarguido
 
 Part 2 can be found here: http://nbviewer.ipython.org/gist/sarguido/8627109
 
-And part 3, where we build a hangman game: 
+And part 3, where we build a hangman game: http://nbviewer.ipython.org/gist/sarguido/8627743
